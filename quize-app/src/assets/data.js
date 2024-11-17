@@ -1,0 +1,42 @@
+export const data = [
+    {
+        question: "What does NaN represent in JavaScript?",
+        option1: "Null",
+        option2: "Not a Number",
+        option3: "New and Null",
+        option4: "None",
+        ans: 2,
+    },
+    {
+        question: "Which HTML tag is used for the largest heading?",
+        option1: "<h3>",
+        option2: "<h1>",
+        option3: "<h5>",
+        option4: "<h6>",
+        ans: 2,
+    },
+    {
+        question: "In CSS, which property is used to change the text color of an element?",
+        option1: "font-color",
+        option2: "text-color",
+        option3: "color",
+        option4: "text-style",
+        ans: 3,
+    },
+    {
+        question: "Which planet is known as the red planet?",
+        option1: "Earth",
+        option2: "Mars",
+        option3: "Jupiter",
+        option4: "Saturn",
+        ans: 2,
+    },
+    {
+        question: "The Eiffel Tower is located in which city?",
+        option1: "London",
+        option2: "Rome",
+        option3: "Paris",
+        option4: "Berlin",
+        ans: 3,
+    },
+];

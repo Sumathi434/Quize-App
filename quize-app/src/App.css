@@ -1,0 +1,66 @@
+body{
+  background:url("../src/images/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to bottom,green,rgb(50, 240, 50),green);
+}
+.container{
+  background-color: white;
+  width:620px;
+  height: 500px;
+  border-radius: 10px;
+  border:1px solid gray;
+  color: black;
+  padding:20px;
+  box-shadow: 0 0 10px black;
+
+}
+ul li{
+  list-style-type: none;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 30px;
+}
+.next{
+  padding:10px 25px;
+  background-color: rgb(2, 2, 41);
+  color:white;
+  border-radius: 5px;
+  border:1px solid rgb(244, 234, 234);
+  font-size: 15px;
+
+}
+.next:hover{
+  background: linear-gradient(to right,blue,navy);
+}
+
+.container .correct{
+  background-color: rgb(130, 233, 130);
+  border-color: rgb(227, 219, 219);
+  padding: 5px;
+  border-radius: 10px;
+}
+.container .wrong{
+  background-color: rgb(229, 115, 115);
+  border:1px solid rgb(237, 207, 207);
+  padding:5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.reset{
+  padding:10px 25px;
+  background-color: rgb(2, 2, 41);
+  color:white;
+  border-radius: 5px;
+  border:1px solid rgb(244, 234, 234); 
+  font-size: 15px;
+  text-align: center;
+}
+.reset:hover{
+  background: linear-gradient(to right,blue,navy);
+}
+
+
